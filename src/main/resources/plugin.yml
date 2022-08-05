@@ -1,0 +1,23 @@
+main: pl.blackwater.warps.WarpPlugin
+name: WarpPlugin
+version: 1.0
+author: BlackWater/CzarnaWoda
+description: Plugin bought on KRAYDAY LICENSE <<OWN BY BLACKWATER>> If you want more information about this product, contact CzarnaWoda#6442 (DISCORD) or by e-mail (kraydaygroup@gmail.com). Any potentional shares will be punish. Author doesnt agree with any changes in code ! The only owner of plug-in is author !
+website: https://github.com/CzarnaWoda
+awareness:
+  - To use this plug-in you have to have vault and any economy plug-in depend by vault !
+api-version: 1.13
+depend:
+  - Vault
+softdepend:
+  - Vault
+commands:
+  warp:
+    description: Warp Command
+    permission: warp.warpcommand
+  warpmanage:
+    description: Warp Manage Command
+    permission: warp.admin
+  warpreload:
+    description: Warp Reload command
+    permission: warp.admin
